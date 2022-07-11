@@ -1,0 +1,60 @@
+* First edition preface
+- ``Pragmatic'', from the Latin /pragmaticus/: skilled in
+  business. From the Greek πραγματικός: fit for use.
+
+- Our business here is /doing/. Programming is a /craft/. [gp: Like
+  medicine, we are dealing here with a /techne/. See also /know how/
+  vs /know that/].
+
+- Theory + Practice -> Strength
+
+- The pragmatic approach leads to:
+  - gaining experience rapidly;
+  - increasing productivity;
+  - understanding better the development process;
+  - writing better software;
+
+- Pragmatic programmers' common traits:
+  - Early adopter, fast adapter;
+  - Inquisitive;
+  - Critical thinker;
+  - Realistic;
+  - Jack of all trades;
+  - *Care about your craft (Tip 1)*;
+  - *Think! About your work (Tip 2)*.
+
+#+begin_quote
+``Within the overall structure of a project there is always room for
+individuality and craftmaship''.
+#+end_quote
+
+- Every day a small amount of care. /Kaizen/: Every day work to refine
+  your skills and add new tools to your repertoire.
+
+* Chapter 1. A Pragmatic Philosophy
+** Topic 1: It's your life.
+
+The most important tip in the book: *You Have Agency (Tip 3)*. You can
+try to fix what does not work in your life.
+** Topic 2: The Cat Ate My Source Code
+Ignorance and mistakes are part of the picture. Your picture. Accept
+them. And deal with them professionally, honestlym, and directly.
+
+Trust in team is essential for creativity and collaboration (see
+http://dx.doi.org/10.1037/apl0000110).
+
+*Take responsibility.* You might not control over any aspect of what
+you commit yourself to do. Decide whether you committing or not based
+on your values and judgments. If you do not achieve the outcome for
+which you have accepted responsibility, you should expected to be held
+accountable for it. Don't make excuses. Don't blame others. Accept it
+and try to offer solutions. *Tip 4: Provide Options, Don't Make Lame
+Excuses*.
+
+
+
+
+
+
+
+
