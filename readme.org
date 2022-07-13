@@ -32,29 +32,128 @@ individuality and craftmaship''.
   your skills and add new tools to your repertoire.
 
 * Chapter 1. A Pragmatic Philosophy
-** Topic 1: It's your life.
+** 1: It's your life.
+- The most important tip in the book: *You Have Agency (Tip 3)*. You
+  can try to fix what does not work in your life.
+** 2: The Cat Ate My Source Code
+- Ignorance and mistakes are part of the picture. Your picture. Accept
+  them. And deal with them professionally, honestlym, and directly.
 
-The most important tip in the book: *You Have Agency (Tip 3)*. You can
-try to fix what does not work in your life.
-** Topic 2: The Cat Ate My Source Code
-Ignorance and mistakes are part of the picture. Your picture. Accept
-them. And deal with them professionally, honestlym, and directly.
+- Trust in team is essential for creativity and collaboration (see
+  http://dx.doi.org/10.1037/apl0000110).
 
-Trust in team is essential for creativity and collaboration (see
-http://dx.doi.org/10.1037/apl0000110).
+- *Take responsibility.* You might not control over any aspect of what
+  you commit yourself to do. Decide whether you committing or not
+  based on your values and judgments. If you do not achieve the
+  outcome for which you have accepted responsibility, you should
+  expected to be held accountable for it. Don't make excuses. Don't
+  blame others. Accept it and try to offer solutions. *Tip 4: Provide
+  Options, Don't Make Lame Excuses*.
 
-*Take responsibility.* You might not control over any aspect of what
-you commit yourself to do. Decide whether you committing or not based
-on your values and judgments. If you do not achieve the outcome for
-which you have accepted responsibility, you should expected to be held
-accountable for it. Don't make excuses. Don't blame others. Accept it
-and try to offer solutions. *Tip 4: Provide Options, Don't Make Lame
-Excuses*.
+** 3: Software Entropy
+- ``Entropy'': the amount of ``disorder'' in a system.
 
+- ``Software rot''. ``Technical debt''.
 
+- A broken window can quickly turn a building into a derelict. People
+  lose the will to fight entropy because they perceived that no one
+  else cares.
 
+- *Tip 5: Don't Live with Broken Windows*.
 
+- As soon as you discover a broken window, fix it. If there is not
+  time, board it up in some way.
 
+** 4: Stone Soup and Boiled Frogs
+- One way to bring change in the direction you want is to develop
+  something, show it to people and state that it would be better if it
+  we added... *Tip 6: Be a Catalyst for Change*.
 
+- But don't let unnoticed change ruin your project. *Tip 7: Remember
+  the Big Picture*.
 
+** 5: Good-Enough Software
+- User should be given the opportunity to participate in the process
+  of deciding whether what it has been produced is good enough for
+  their needs.
 
+- *Tip 8: Make Quality a Requirement Issue*.
+
+- Often trade-off are involved.
+
+- Know when to stop. Don't aim at writing a perfect program. That
+  ideal cannot be reached.
+
+** 6: Your Knowledge Portfolio
+#+begin_quote
+Your knowledge and experience are your most important day-to-day
+professional assets.
+#+end_quote
+
+- However, those assetts /expire/.
+
+- To be sucessfull, you must invest in your /knowledge portfolio/
+  (here `knowledge' includes practical skills, experience, etc.) in
+  the same way one should invest in one's financial portfolio:
+  1. Invest regularly. It should be a habit;
+  2. Diversification;
+  3. Balance between conservative/low-reward and high-risk/high-reward.
+  4. Buy low, sell high.
+  5. Review and rebalance the portfolio periodically.
+
+- Try to develop and internalize a routine that allows you to form the
+  habit of investing in your knowledge portfolio.
+
+- *Tip 9: Invest Regularly in Your Knowledge Porfolio*.
+
+- Way to invest:
+  - learn a new language every year
+  - read a technical book each month
+  - take classes
+  - Participate in local groups / meetups
+  - Experiment with different environments/software
+  - Stay current; read tech news and posts.
+
+- Take any opportunity to learn.
+
+- *Tip 10: Critically Analyze What Your Read and Hear*.
+
+- Ask:
+  - Why? At least five times. Like a petulant kid.
+  - Who does this benefit?
+  - What's the context?
+  - When and Where would this work?
+  - Why is this a problem?
+
+** 7: Communicate!
+- *Tip 11: English is Just Another Programming Language*
+
+- Adapt to your audience. Make the appropriate pitch to each group.
+
+- Communicate at the right moment. If you are not sure: “Is this a
+  good time to talk about…?’
+
+- Make it look good...
+
+- Involve your audience with early drafts. You'll build relationships
+  and get feedback to improve your writings.
+
+- Listen to people.
+
+- Get back to people.
+
+- *Tip 12: It's Both What You Say and the Way You Say It*.
+
+#+begin_quote
+Pragmatic Programmers embrace documentation as an integral part of the
+overall development process.
+#+end_quote
+
+- *Tip 13: Build Documentation In, Dont' Bolt it On*
+
+- It is recommended to add comments to modules and exported functiosn
+  to help other developers.
+
+- However, it is recommended to restrict the non-API commenting only
+  to discussing /why/ something is done, its purpose and its
+  goal. (The code already shows the /how/.)
