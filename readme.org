@@ -157,3 +157,72 @@ overall development process.
 - However, it is recommended to restrict the non-API commenting only
   to discussing /why/ something is done, its purpose and its
   goal. (The code already shows the /how/.)
+* Chapter 2. A Pragmatic Approach
+** 8: The Essence of Good Design
+- *Tip 14: Good Design is Easier to Change Than Bad Design*.
+
+- Every design principle is a case of ETC (Easier To Change).
+
+-  Start with a conscious effort:
+    #+begin_quote
+    “did the thing I just did make the overall system easier or harder
+    to change?” Do it when you save a file. Do it when you write a
+    test.  Do it when you fix a bug.
+    #+end_quote
+** 9: DRY --- The Evils of Duplication
+- Knowlege is not stable. It changes. If we duplicate knowlege
+  maintanace will be a nightmare.
+
+- Every piece of knowledge must have a single, unambiguous,
+  authoritative representation within a system. That is:
+
+- *Tip 15: DRY --- Don't Repeat Yourself*.
+
+- Ask yourself: when some aspect of the code changes, do you have to
+  make changes in multiple places? If so, the code isn't DRY.
+
+- The idea that you should comment all your functions is insanity.
+
+- Active and frequent communication should be encouraged between
+  developers.
+
+- *Tip 16: Make It Easy to Reuse*.
+** 10: Orthogonality
+- Two things are said to be orthogonal if changes in one does not
+  affet the other.
+
+- You want to reduce interdependency among the system's components.
+  For example, you want the database code to be orthogonal to the user
+  interface.
+
+- *Tip 17: Eliminate Effects Between Unrelated Things*.
+** 11: Reversibility
+- Critical decisions are not easily reversible.
+
+- Many topics of this book recommends practices that makes us make
+  less critical, irreversible decisions --- see, in particular DRY
+  (p. 30), decoupling (p. 130), and use of external configuration on
+  (p. 166).
+
+- Example: suppose you want to change the relational database you are
+  using, because another one is faster. If third-party calls are
+  entangled throughout the code, then it's not going to be an easy
+  task. However, if you really abstracted the idea of a databse, then
+  you will be able to make this change in midstream!
+
+- Another example: you begin by writing a browser-based application,
+  but later one, you want it to be a mobile app...
+
+- *Tip 18: There Are No Final Decisions*.
+
+- Not only the /code/ can be flexible:
+  - architecture;
+  - deployment;
+  - vendor integration.
+
+- Hide third-party APIs behind your own abstraction layers.
+- Break your code into components.
+
+- *Tip 19: Forgo Following Fads*.
+** 12: Tracer Bullets
+
